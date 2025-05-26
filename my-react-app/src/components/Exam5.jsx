@@ -21,7 +21,7 @@ const Exam5_1 = () => {
 
 // JSX 예제 2 : img 태그 이미지 사용
 const Exam5_2 = () => {
-    const [userImg, setUserImg] = userState("https://mblogthumb-phinf.pstatic.net/MjAxOTA3MTVfMTEw/MDAxNTYzMTk1ODM0MjAx.Uf_1ODalDlqLZu-jsA7D57AmQSSqBnovPgVo9yJ8DWIg.A0uk6fu8SRA2YDGmYXtyMU_G23T6CKFAT_6jwnQLhDIg.JPEG.danivelyy/IMG_2929.JPG?type=w800");
+    const [userImg, setUserImg] = useState("https://mblogthumb-phinf.pstatic.net/MjAxOTA3MTVfMTEw/MDAxNTYzMTk1ODM0MjAx.Uf_1ODalDlqLZu-jsA7D57AmQSSqBnovPgVo9yJ8DWIg.A0uk6fu8SRA2YDGmYXtyMU_G23T6CKFAT_6jwnQLhDIg.JPEG.danivelyy/IMG_2929.JPG?type=w800");
     return <img src={test1} />;
 };
 
